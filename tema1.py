@@ -16,7 +16,7 @@ class Manager(Employee):
     def display_employee(self):  ##X%3 is 4%3==1 so this method displays only the salary
         """Display the salary as Salary: [salary]"""
         print("Salary: ", self.salary)
- ## Sa moara frant
+
 ##Y/3 is 5/3==1 => 1 object created
     
 nume = pd.read_excel('salariati.xlsx', usecols=['Nume'], nrows=1)+' '+pd.read_excel('salariati.xlsx', usecols=['Prenume'], nrows=1)
