@@ -63,11 +63,5 @@ manager1.display_employee()
 manager2.display_employee()
 manager3.display_employee()
 
-employee=Employee(nume, salariu)
-print(employee.empCount)
-print(manager0.empCount)
-
-
-
-
-
+print(Employee.empCount)
+print(Manager.empCount)
