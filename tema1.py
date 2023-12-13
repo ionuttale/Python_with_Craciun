@@ -26,6 +26,8 @@ employee = Manager(nume, salary, 'IT')
 
 employee.display_employee()
 
+print('Manager count: ', Manager.mgr_count)
+print('Employee count: ', Employee.empCount)
 
 
 
