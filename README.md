@@ -1,1 +1,3 @@
-"# Python with Craciun" 
+Module necesare: pandas, openxlpy
+
+Executare: python tema1.py
