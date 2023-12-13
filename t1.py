@@ -53,10 +53,10 @@ class Manager(Employee):
 nume=pd.read_excel('salariati.xlsx', usecols=['Nume','Prenume'], nrows=4)
 salariu=pd.read_excel('salariati.xlsx', usecols=['Salariu'], nrows=4)
 
-manager0=Manager(nume.loc[0],salariu.loc[0],'soft')
-manager1=Manager(nume.loc[1],salariu.loc[1],'soft')
-manager2=Manager(nume.loc[2],salariu.loc[2],'it')
-manager3=Manager(nume.loc[3],salariu.loc[3],'it')
+manager0=Manager(nume.iloc[0]['Nume']+' '+nume.iloc[0]['Prenume'],salariu.iloc[0]['Salariu'],'soft')
+manager1=Manager(nume.iloc[1]['Nume']+' '+nume.iloc[1]['Prenume'],salariu.iloc[1]['Salariu'],'soft')
+manager2=Manager(nume.iloc[2]['Nume']+' '+nume.iloc[2]['Prenume'],salariu.iloc[2]['Salariu'],'soft')
+manager3=Manager(nume.iloc[3]['Nume']+' '+nume.iloc[3]['Prenume'],salariu.iloc[3]['Salariu'],'soft')
 
 manager0.display_employee()
 manager1.display_employee()
