@@ -5,6 +5,6 @@
 #Github link: https://github.com/ionuttale/Tema1_-Python.git
 
 #References:
-    https://pypi.org/project/pytest-mock/ -for pytest
-    https://pytest-mock.readthedocs.io/en/latest/ - for pytest
-    https://pytest-mock.readthedocs.io/en/latest/ - for git
+#    https://pypi.org/project/pytest-mock/ -for pytest
+#   https://pytest-mock.readthedocs.io/en/latest/ - for pytest
+#    https://pytest-mock.readthedocs.io/en/latest/ - for git
